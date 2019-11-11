@@ -81,7 +81,7 @@ button {
   font-weight: 300;
   font-size: 1em;
   display: inline-block;
-  width: 80%;
+  width: 100%;
   cursor: pointer;
   border: 1px solid white;
   transition-property: all;
@@ -95,5 +95,6 @@ button:hover {
 
 div.container-cta-text {
   padding-right: 75px;
+  padding-left: 24px;
   font-size: 1.2em;
 }
