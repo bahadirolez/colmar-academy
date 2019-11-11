@@ -18,19 +18,18 @@ header {
   position: fixed;
   display: flex;
   z-index: 1;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
   left: 0;
   top: 0;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
 }
 
 nav {
-  padding-right: 24px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
-  float: right;
 }
 
 .logo1 {
@@ -52,4 +51,49 @@ nav span a {
   padding: 0px 8px;
   text-decoration: none;
   color: black;
+  font-size: 12px;
+}
+
+/* CTA Banner Alanı */
+
+div.container-cta-banner img {
+  width: 100%;
+}
+
+div.container-cta-banner {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+div.container-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+}
+
+button {
+  color: white;
+  background-color: black;
+  padding: 8px 0;
+  font-family: Gotham;
+  font-weight: 300;
+  font-size: 1em;
+  display: inline-block;
+  width: 80%;
+  cursor: pointer;
+  border: 1px solid white;
+  transition-property: all;
+  transition-duration: 0.2s;
+  box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+button:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+div.container-cta-text {
+  padding-right: 75px;
+  font-size: 1.2em;
 }
