@@ -2,6 +2,23 @@ body {
   font-family: Gotham;
 }
 
+img {
+  width: 100%;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+}
+
 /* Header Alanı */
 
 div.logo {
@@ -56,13 +73,9 @@ nav span a {
 
 /* CTA Banner Alanı */
 
-div.container-cta-banner img {
-  width: 100%;
-}
-
 div.container-cta-banner {
   width: 60%;
-  margin: 32px 24px;
+  padding: 32px 24px;
 }
 
 div.container-cta {
@@ -76,14 +89,14 @@ div.container-cta {
 button {
   color: white;
   background-color: black;
-  padding: 8px 0;
+  padding: 0.5rem 0;
   font-family: Gotham;
   font-weight: 300;
   font-size: 1em;
-  display: inline-block;
-  width: 100%;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
   border: 1px solid white;
+  max-width: 90%;
   transition-property: all;
   transition-duration: 0.2s;
   box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
@@ -94,7 +107,84 @@ button:hover {
 }
 
 div.container-cta-text {
-  padding-right: 75px;
-  padding-left: 24px;
   font-size: 1.2em;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Info Alanı */
+
+div.container-info-img {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.who-said {
+  font-size: 0.8rem;
+}
+
+aside p {
+  font-style: italic;
+}
+
+div.container-info {
+  display: flex;
+}
+
+div.info {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-left: 1px solid rgb(216, 216, 216);
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.info-last {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-left: 1px solid rgb(216, 216, 216);
+}
+
+.info-last:hover{
+  background-color: rgb(216, 216, 216);
+}
+
+.info:hover{
+  background-color: rgb(216, 216, 216);
+}
+
+div.info-img {
+  width: 35%;
+  padding: 16px;
+}
+
+.info-text {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-info-list {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto;
+}
+
+.info-span {
+  padding: 0.5rem 0;
+}
+
+.read-more {
+  text-transform: capitalize;
+  color: rgb(64, 140, 233);
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: white;
 }
