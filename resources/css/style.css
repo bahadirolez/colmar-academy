@@ -19,6 +19,17 @@ h2 {
   margin-top: 0.5rem;
 }
 
+h4 {
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Header Alanı */
 
 div.logo {
@@ -114,11 +125,20 @@ div.container-cta-text {
   flex-direction: column;
 }
 
+.container-cta-text p {
+  padding: 1.5rem 0;
+}
+
 /* Info Alanı */
 
 div.container-info-img {
   width: 60%;
   padding: 32px 24px;
+}
+
+div.container-info-img h2 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .who-said {
@@ -127,6 +147,7 @@ div.container-info-img {
 
 aside p {
   font-style: italic;
+  padding-bottom: 0.5rem;
 }
 
 div.container-info {
@@ -187,4 +208,47 @@ div.info-img {
 
 .read-more:hover {
   color: white;
+}
+
+/* Programs Alanı */
+
+#Programs {
+  background-color: rgb(216, 216, 216);
+}
+
+h2.title-programs {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.program-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 5rem;
+  justify-content: space-around;
+  width: auto;
+}
+
+.container-programs {
+  width: 30%;
+  margin: 1rem;
+  padding-bottom: 1.5rem;
+  background-color: white;
+}
+
+.programs-text {
+  padding: 1rem 1rem;
+}
+
+.programs-img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.container-programs img {
+  width: 100%;
 }
