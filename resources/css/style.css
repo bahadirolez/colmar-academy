@@ -93,7 +93,7 @@ nav span a:hover {
 
 /* Medya sorguları Mobil Cihazlar için */
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 710px) {
 
   #Desktop {
     display:none;
@@ -161,7 +161,7 @@ div.container-cta-text {
 
 /* Medya sorguları Mobil Cihazlar için */
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 710px) {
 
   .container-cta {
     flex-direction: column;
@@ -276,7 +276,7 @@ div.info-img {
 
 /* Medya sorguları Mobil Cihazlar için */
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 710px) {
 
   .container-info {
     flex-direction: column;
@@ -367,7 +367,7 @@ h2.title-programs {
   width: 100%;
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 710px) {
 
   div.programs-img {
     display: none;
@@ -464,7 +464,7 @@ h2.title-thesis {
   padding-top: 0.5rem;
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 710px) {
 
   .thesis-articles {
     display: none;
@@ -506,7 +506,7 @@ footer div a {
   color: rgb(216, 216, 216);
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 710px) {
 
 div.footer-links {
     display: none;
