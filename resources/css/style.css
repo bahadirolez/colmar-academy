@@ -87,6 +87,31 @@ nav span a:hover {
   color: rgb(216, 216, 216);
 }
 
+#Mobile {
+  display: none;
+}
+
+/* Medya sorguları Mobil Cihazlar için */
+
+@media only screen and (max-width: 630px) {
+
+  #Desktop {
+    display:none;
+  }
+
+  #Mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  div.logo {
+    display: none;
+    padding: 0;
+  }
+}
+
 /* CTA Banner Alanı */
 
 div.container-cta-banner {
@@ -132,6 +157,36 @@ div.container-cta-text {
 
 .container-cta-text p {
   padding: 1.5rem 0;
+}
+
+/* Medya sorguları Mobil Cihazlar için */
+
+@media only screen and (max-width: 630px) {
+
+  .container-cta {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  div.container-cta-banner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  div.container-cta-text {
+    width: 90%;
+    padding: 0;
+    margin: 2rem 1rem;
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: none;
+  }
 }
 
 /* Info Alanı */
@@ -215,6 +270,53 @@ div.info-img {
   color: white;
 }
 
+.mobile-img {
+  display: none;
+}
+
+/* Medya sorguları Mobil Cihazlar için */
+
+@media only screen and (max-width: 630px) {
+
+  .container-info {
+    flex-direction: column;
+  }
+
+  div.container-info-img {
+    width: 100%;
+    display: none;
+  }
+
+  .container-info-list {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .info,
+  .info-last {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  div.info-img {
+    width: 100%;
+  }
+
+  .info-text {
+    width: 100%;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    width: 100%;
+    display: flex;
+  }
+}
+
 /* Programs Alanı */
 
 #Programs {
@@ -263,6 +365,40 @@ h2.title-programs {
 
 .container-programs img {
   width: 100%;
+}
+
+@media only screen and (max-width: 630px) {
+
+  div.programs-img {
+    display: none;
+  }
+
+  div.programs-text h4,
+  div.programs-text p {
+    display: none;
+  }
+
+  div.container-programs {
+    width: 90%;
+    padding: 0;
+    margin: 0.25rem;
+    transition: none;
+  }
+
+  div.program-list {
+    padding: 0;
+    padding-bottom: 1.75rem;
+    text-align: center;
+  }
+
+  div.container-programs:hover {
+    transform: none;
+  }
+
+  h2.title-programs {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
 }
 
 /* Thesis Alanı */
@@ -328,6 +464,25 @@ h2.title-thesis {
   padding-top: 0.5rem;
 }
 
+@media only screen and (max-width: 630px) {
+
+  .thesis-articles {
+    display: none;
+  }
+
+  .thesis-video {
+    width: 100%;
+  }
+
+  div.text {
+    display: none;
+  }
+
+  div.video {
+    padding-left: 0;
+  }
+}
+
 /* Footer Alanı */
 
 footer {
@@ -349,4 +504,16 @@ footer p {
 footer div a {
   text-decoration: none;
   color: rgb(216, 216, 216);
+}
+
+@media only screen and (max-width: 630px) {
+
+div.footer-links {
+    display: none;
+  }
+
+.thesis-video {
+  margin: 0 0 2rem 0;
+}
+
 }
